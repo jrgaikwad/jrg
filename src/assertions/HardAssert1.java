@@ -12,6 +12,7 @@ public class HardAssert1 {
 	  Assert.assertEquals(d, c);
 	  System.out.println("After First Assertion");
 	  System.out.println("hi hhh");
+	  System.out.println("hi hhh");
  
   
   }
