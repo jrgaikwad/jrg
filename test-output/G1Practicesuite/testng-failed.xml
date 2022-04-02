@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [G1Practicesuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="methods" name="Purchasefunctionality(failed)">
+    <classes>
+      <class name="com.TestNG.AnnotationOrder">
+        <methods>
+          <include name="afterTest"/>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+          <include name="afterSuite"/>
+          <include name="beforeClass"/>
+          <include name="beforeTest"/>
+          <include name="testcase1"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.TestNG.AnnotationOrder -->
+    </classes>
+  </test> <!-- Purchasefunctionality(failed) -->
+</suite> <!-- Failed suite [G1Practicesuite] -->
